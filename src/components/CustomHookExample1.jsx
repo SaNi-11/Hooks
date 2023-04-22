@@ -1,7 +1,7 @@
-import UseFetch from '../hooks/UseFetch';
+import useFetch from '../hooks/UseFetch';
 
 function CustomHookExample1() {
-  const { data, loading } = UseFetch(
+  const { data, loading } = useFetch(
     'https://jsonplaceholder.typicode.com/posts',
     {}
   );
